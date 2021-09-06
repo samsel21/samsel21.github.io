@@ -1,0 +1,115 @@
+<!--News Seite-->
+
+<!doctype html>
+<html lang="de" id="top">
+
+<head>
+    <meta charset="utf-8">
+    <title>Startseite - Einführung in HTML + CSS</title>
+
+    <meta name="viewport" content="widht=device-widht, initial-scale=1.0, shrink-to-fit=no">
+
+    <link href="css/style.css" rel="stylesheet">
+    
+</head>
+
+<body class="seite-kontakt">
+<!-- Kopfbereich -->
+<!-- Logo + Slogan -->
+    <header class="site-header">
+
+    <h1 class="site-logo">
+        <a href="index.html">
+        <img src="bilder/html+css-logo-444.png"
+             alt="HTML + CSS"
+             width="222"
+             height="33">
+        </a>
+    </h1>
+    <p>Webseiten erstellen und gestalten</p>   
+    </header>
+
+<!-- Navigationsbereich -->
+    <nav class="site-nav"> 
+        <ul>
+            <li><a href="index.html">Startseite</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="ueber-uns.html">Über uns</a></li>
+            <li class="current"><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+
+<!-- Inhaltsbereich -->
+<!-- Inhalt der Seite -->
+    <main class="content"> 
+        <section class="content-intro">
+        <h2>Kontakt</h2>
+
+        <P>Bei Fragen oder anregungen können Sie gerne mit dem untenstehenden Formular mit uns in Kontakt tretten.
+        </P>
+        </section>
+
+        <section class="kontaktdaten">
+        <h2>Kontaktdaten</h2>
+
+        <address>
+        <p>Hörtnagl Samuel <br>
+           Testweg 13<br>
+           6800 Feldkirch </p>
+        <p> Tel.: <a href="tel : +43.564.123456">+43 564 123456</a></p>
+        </address>
+        </section>
+
+        <section class="kontaktformular" id="kontaktformular">
+                <h2>Kontaktformular</h2>
+                <p>Mit dem folgendem Formular können Sie uns eine Nachricht schicken. <br>
+            Bitte füllen Sie alle Felder aus.</p>
+        
+            <form action="#" method="post">
+                <div>
+                <label for="besuchername">Ihr Name:</label> <br>
+                <input type="text" id="besuchername" name="besuchername" required> <br>
+                </div>
+                <div>
+                <label for="besuchermail">Ihre E-Mail:</label> <br>
+                <input type="email" id="besuchermail" name="besuchermail" required> <br>
+                </div>
+                <div>
+                <label for="nachricht">Ihre Nachricht:</label> <br>
+                <textarea   id="Nachricht"
+                            name="nachricht"
+                            cols="30"
+                            rows="5"
+                            required></textarea>
+                </div>
+                <div>
+                <input type="checkbox" id="infomaterial" name="infomaterial" value="ja">
+                <label for="infomaterial">Bitte schicken Sie mir Infomaterial.</label> <br>
+                </div>
+                <div>
+                <label><input type="checkbox" id="dsgvo" name="dsgvo" checked required></label>
+                Mit der Nutzung dieses Formulars erklären Sie sich mit der Speicherung <br>
+                und Verarbeitung Ihrer Daten einverstanden.
+                </label> (<a href="#" target="_blank">Datenschutzerklärung</a>)
+                </div>
+
+                <button type="submit" value="Abgeschickt">Abschicken</button>
+            </form>
+        </section>
+
+    </main>
+
+<!-- Fußbereich -->
+    <footer class="site-footer">
+        <nav class="meta-nav" >
+         <ul>
+          <li> <a href="impressum.html">Impressum</a></li>
+          <li> <a href="datenschutz.html">Datenschutz</a></li>
+          <li> <a href="#top">Nach oben</a></li>
+        </ul>
+       </nav>     
+    </footer>
+
+</body>
+
+</html>
